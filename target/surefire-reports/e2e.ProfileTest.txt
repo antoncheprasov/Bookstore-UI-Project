@@ -1,0 +1,67 @@
+-------------------------------------------------------------------------------
+Test set: e2e.ProfileTest
+-------------------------------------------------------------------------------
+Tests run: 13, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 220.683 s <<< FAILURE! - in e2e.ProfileTest
+deletingAllBooksFromUserCollection(e2e.ProfileTest)  Time elapsed: 18.778 s  <<< FAILURE!
+com.codeborne.selenide.ex.ElementNotFound: 
+Element not found {By.xpath: //div[@class='text-right button di']}
+Expected: clickable: interactable and enabled
+Screenshot: file:/Users/anton/Downloads/Bookstore-ui-tests/build/reports/tests/1702408129277.0.png
+Page source: file:/Users/anton/Downloads/Bookstore-ui-tests/build/reports/tests/1702408129277.0.html
+Timeout: 4 s.
+Caused by: NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='text-right button di']"}
+	at e2e.ProfileTest.deletingAllBooksFromUserCollection(ProfileTest.java:59)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='text-right button di']"}
+  (Session info: chrome=120.0.6099.71)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.4', java.version: '20.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [efbf1d1bb1d6e1e547a412cffd0829d1, findElement {using=xpath, value=//div[@class='text-right button di']}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 120.0.6099.71, chrome: {chromedriverVersion: 120.0.6099.71 (9729082fe617..., userDataDir: /var/folders/np/cbsnhzd12hb...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52762}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:52762/devtoo..., se:cdpVersion: 120.0.6099.71, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: accept, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: efbf1d1bb1d6e1e547a412cffd0829d1
+	at e2e.ProfileTest.deletingAllBooksFromUserCollection(ProfileTest.java:59)
+
+addingBookToUserCollection(e2e.ProfileTest)  Time elapsed: 24.761 s  <<< FAILURE!
+com.codeborne.selenide.ex.ElementNotFound: 
+Element not found {By.id: userName}
+Expected: visible
+Screenshot: file:/Users/anton/Downloads/Bookstore-ui-tests/build/reports/tests/1702408218393.1.png
+Page source: file:/Users/anton/Downloads/Bookstore-ui-tests/build/reports/tests/1702408218393.1.html
+Timeout: 10 s.
+Caused by: NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#userName"}
+	at e2e.ProfileTest.addingBookToUserCollection(ProfileTest.java:26)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"css selector","selector":"#userName"}
+  (Session info: chrome=120.0.6099.71)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.4', java.version: '20.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [11c17e064e4fcfb0777bd29fca0cc934, findElement {using=id, value=userName}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 120.0.6099.71, chrome: {chromedriverVersion: 120.0.6099.71 (9729082fe617..., userDataDir: /var/folders/np/cbsnhzd12hb...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53351}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:53351/devtoo..., se:cdpVersion: 120.0.6099.71, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: accept, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 11c17e064e4fcfb0777bd29fca0cc934
+	at e2e.ProfileTest.addingBookToUserCollection(ProfileTest.java:26)
+
+checkSearchResultsForQueryUsingNonExistingWords(e2e.ProfileTest)  Time elapsed: 23.112 s  <<< FAILURE!
+com.codeborne.selenide.ex.ElementNotFound: 
+Element not found {By.id: userName}
+Expected: visible
+Screenshot: file:/Users/anton/Downloads/Bookstore-ui-tests/build/reports/tests/1702408241689.2.png
+Page source: file:/Users/anton/Downloads/Bookstore-ui-tests/build/reports/tests/1702408241689.2.html
+Timeout: 10 s.
+Caused by: NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#userName"}
+	at e2e.ProfileTest.checkSearchResultsForQueryUsingNonExistingWords(ProfileTest.java:184)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"css selector","selector":"#userName"}
+  (Session info: chrome=120.0.6099.71)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.4', java.version: '20.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5ad14a2fb59c3215184a74e141e82e73, findElement {using=id, value=userName}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 120.0.6099.71, chrome: {chromedriverVersion: 120.0.6099.71 (9729082fe617..., userDataDir: /var/folders/np/cbsnhzd12hb...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53486}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:53486/devtoo..., se:cdpVersion: 120.0.6099.71, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: accept, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 5ad14a2fb59c3215184a74e141e82e73
+	at e2e.ProfileTest.checkSearchResultsForQueryUsingNonExistingWords(ProfileTest.java:184)
+

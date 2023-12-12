@@ -1,0 +1,12 @@
+e2e/RegistrationTest.class
+e2e/CatalogTest.class
+e2e/pages/CatalogPage.class
+e2e/Smoke.class
+e2e/pages/RegistrationPage.class
+e2e/pages/ProfilePage.class
+e2e/pages/LoginPage.class
+e2e/BaseTest.class
+e2e/pages/SideBarPage.class
+e2e/ProfileTest.class
+e2e/RunnerTest.class
+e2e/LoginTest.class

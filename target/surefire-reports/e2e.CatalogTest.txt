@@ -1,0 +1,119 @@
+-------------------------------------------------------------------------------
+Test set: e2e.CatalogTest
+-------------------------------------------------------------------------------
+Tests run: 16, Failures: 6, Errors: 0, Skipped: 0, Time elapsed: 215.508 s <<< FAILURE! - in e2e.CatalogTest
+viewBookDetails(e2e.CatalogTest)  Time elapsed: 23.982 s  <<< FAILURE!
+com.codeborne.selenide.ex.ElementNotFound: 
+Element not found {By.id: synopsis-label}
+Expected: visible
+Screenshot: file:/Users/anton/Downloads/Bookstore-ui-tests/build/reports/tests/1702408368315.5.png
+Page source: file:/Users/anton/Downloads/Bookstore-ui-tests/build/reports/tests/1702408368315.5.html
+Timeout: 10 s.
+Caused by: NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#synopsis\-label"}
+	at e2e.CatalogTest.viewBookDetails(CatalogTest.java:52)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"css selector","selector":"#synopsis\-label"}
+  (Session info: chrome=120.0.6099.71)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.4', java.version: '20.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1dc2917c87a48f775973d14075af11a7, findElement {using=id, value=synopsis-label}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 120.0.6099.71, chrome: {chromedriverVersion: 120.0.6099.71 (9729082fe617..., userDataDir: /var/folders/np/cbsnhzd12hb...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54356}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:54356/devtoo..., se:cdpVersion: 120.0.6099.71, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: accept, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1dc2917c87a48f775973d14075af11a7
+	at e2e.CatalogTest.viewBookDetails(CatalogTest.java:52)
+
+writingReviewForBook(e2e.CatalogTest)  Time elapsed: 21.084 s  <<< FAILURE!
+com.codeborne.selenide.ex.ElementNotFound: 
+Element not found {By.id: userName}
+Expected: visible
+Screenshot: file:/Users/anton/Downloads/Bookstore-ui-tests/build/reports/tests/1702408397983.6.png
+Page source: file:/Users/anton/Downloads/Bookstore-ui-tests/build/reports/tests/1702408397983.6.html
+Timeout: 10 s.
+Caused by: NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#userName"}
+	at e2e.CatalogTest.writingReviewForBook(CatalogTest.java:72)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"css selector","selector":"#userName"}
+  (Session info: chrome=120.0.6099.71)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.4', java.version: '20.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [863d54fdf87dbfb5fb0e358e7b1feec1, findElement {using=id, value=userName}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 120.0.6099.71, chrome: {chromedriverVersion: 120.0.6099.71 (9729082fe617..., userDataDir: /var/folders/np/cbsnhzd12hb...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54551}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:54551/devtoo..., se:cdpVersion: 120.0.6099.71, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: accept, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 863d54fdf87dbfb5fb0e358e7b1feec1
+	at e2e.CatalogTest.writingReviewForBook(CatalogTest.java:72)
+
+checkingAvailabilityOfBook(e2e.CatalogTest)  Time elapsed: 22.585 s  <<< FAILURE!
+com.codeborne.selenide.ex.ElementNotFound: 
+Element not found {By.id: userName}
+Expected: visible
+Screenshot: file:/Users/anton/Downloads/Bookstore-ui-tests/build/reports/tests/1702408431448.7.png
+Page source: file:/Users/anton/Downloads/Bookstore-ui-tests/build/reports/tests/1702408431448.7.html
+Timeout: 10 s.
+Caused by: NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#userName"}
+	at e2e.CatalogTest.checkingAvailabilityOfBook(CatalogTest.java:98)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"css selector","selector":"#userName"}
+  (Session info: chrome=120.0.6099.71)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.4', java.version: '20.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c3cd5d1af39c455ed27e7f2836a47d27, findElement {using=id, value=userName}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 120.0.6099.71, chrome: {chromedriverVersion: 120.0.6099.71 (9729082fe617..., userDataDir: /var/folders/np/cbsnhzd12hb...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54745}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:54745/devtoo..., se:cdpVersion: 120.0.6099.71, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: accept, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c3cd5d1af39c455ed27e7f2836a47d27
+	at e2e.CatalogTest.checkingAvailabilityOfBook(CatalogTest.java:98)
+
+rateABook(e2e.CatalogTest)  Time elapsed: 20.343 s  <<< FAILURE!
+com.codeborne.selenide.ex.ElementNotFound: 
+Element not found {By.id: rateBook}
+Expected: visible
+Screenshot: file:/Users/anton/Downloads/Bookstore-ui-tests/build/reports/tests/1702408481879.8.png
+Page source: file:/Users/anton/Downloads/Bookstore-ui-tests/build/reports/tests/1702408481879.8.html
+Timeout: 10 s.
+Caused by: NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#rateBook"}
+	at e2e.CatalogTest.rateABook(CatalogTest.java:91)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"css selector","selector":"#rateBook"}
+  (Session info: chrome=120.0.6099.71)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.4', java.version: '20.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [15134de8017c8acfec68a37bd2446864, findElement {using=id, value=rateBook}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 120.0.6099.71, chrome: {chromedriverVersion: 120.0.6099.71 (9729082fe617..., userDataDir: /var/folders/np/cbsnhzd12hb...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55154}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:55154/devtoo..., se:cdpVersion: 120.0.6099.71, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: accept, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 15134de8017c8acfec68a37bd2446864
+	at e2e.CatalogTest.rateABook(CatalogTest.java:91)
+
+recommendedBooksPage(e2e.CatalogTest)  Time elapsed: 21.016 s  <<< FAILURE!
+com.codeborne.selenide.ex.ElementNotFound: 
+Element not found {By.xpath: //span[@class='text'][text()='Recommended Books']}
+Expected: visible
+Screenshot: file:/Users/anton/Downloads/Bookstore-ui-tests/build/reports/tests/1702408527258.9.png
+Page source: file:/Users/anton/Downloads/Bookstore-ui-tests/build/reports/tests/1702408527258.9.html
+Timeout: 10 s.
+Caused by: NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//span[@class='text'][text()='Recommended Books']"}
+	at e2e.CatalogTest.recommendedBooksPage(CatalogTest.java:65)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//span[@class='text'][text()='Recommended Books']"}
+  (Session info: chrome=120.0.6099.71)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.4', java.version: '20.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [56ffa61d636cfe8527e9b5f0571b0dba, findElement {using=xpath, value=//span[@class='text'][text()='Recommended Books']}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 120.0.6099.71, chrome: {chromedriverVersion: 120.0.6099.71 (9729082fe617..., userDataDir: /var/folders/np/cbsnhzd12hb...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:55527}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:55527/devtoo..., se:cdpVersion: 120.0.6099.71, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: accept, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 56ffa61d636cfe8527e9b5f0571b0dba
+	at e2e.CatalogTest.recommendedBooksPage(CatalogTest.java:65)
+
+checkSearchResultsForQueryUsingNonExistingWords(e2e.CatalogTest)  Time elapsed: 14.21 s  <<< FAILURE!
+com.codeborne.selenide.ex.ElementShould: 
+Element should have partial text "tyehfgfh" {By.xpath: //div[@class='rt-td'][2]}
+Element: '<div class="rt-td" role="gridcell"> </div>'
+Actual value: text=" "
+Screenshot: file:/Users/anton/Downloads/Bookstore-ui-tests/build/reports/tests/1702408559512.10.png
+Page source: file:/Users/anton/Downloads/Bookstore-ui-tests/build/reports/tests/1702408559512.10.html
+Timeout: 4 s.
+	at e2e.CatalogTest.checkSearchResultsForQueryUsingNonExistingWords(CatalogTest.java:40)
+

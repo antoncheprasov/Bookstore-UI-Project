@@ -1,0 +1,25 @@
+-------------------------------------------------------------------------------
+Test set: e2e.RegistrationTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 21.268 s <<< FAILURE! - in e2e.RegistrationTest
+checkExistingFieldsUponRegistration(e2e.RegistrationTest)  Time elapsed: 21.266 s  <<< FAILURE!
+com.codeborne.selenide.ex.ElementNotFound: 
+Element not found {By.id: newUser}
+Expected: visible
+Screenshot: file:/Users/anton/Downloads/Bookstore-ui-tests/build/reports/tests/1702408262956.3.png
+Page source: file:/Users/anton/Downloads/Bookstore-ui-tests/build/reports/tests/1702408262956.3.html
+Timeout: 10 s.
+Caused by: NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#newUser"}
+	at e2e.RegistrationTest.checkExistingFieldsUponRegistration(RegistrationTest.java:13)
+Caused by: org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"css selector","selector":"#newUser"}
+  (Session info: chrome=120.0.6099.71)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.11.0', revision: '040bc5406b'
+System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '13.4', java.version: '20.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2f2aac43ab451164dc9517c43e4f70c3, findElement {using=id, value=newUser}]
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 120.0.6099.71, chrome: {chromedriverVersion: 120.0.6099.71 (9729082fe617..., userDataDir: /var/folders/np/cbsnhzd12hb...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53585}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:53585/devtoo..., se:cdpVersion: 120.0.6099.71, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: accept, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2f2aac43ab451164dc9517c43e4f70c3
+	at e2e.RegistrationTest.checkExistingFieldsUponRegistration(RegistrationTest.java:13)
+
